@@ -1,75 +1,357 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Moana AI Landing Page</title>
-    <script src="https://cdn.tailwindcss.com"></script>
-    <link
-      href="https://cdn.jsdelivr.net/npm/remixicon@4.3.0/fonts/remixicon.css"
-      rel="stylesheet" />
-  </head>
-  <body class="bg-gray-50 font-sans text-gray-800">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Moana AI Landing Page</title>
+        <script src="https://cdn.tailwindcss.com"></script>
+        <link
+            href="https://cdn.jsdelivr.net/npm/remixicon@4.3.0/fonts/remixicon.css"
+            rel="stylesheet" />
+    </head>
+    <body class="bg-gray-50 font-sans text-gray-800">
 
-    <!-- Navbar -->
-    <nav class="bg-white shadow-lg fixed w-full top-0 z-40 ">
-      <div class="container mx-auto px-4">
-        <div class="flex justify-between items-center py-4">
-          <!-- Logo -->
-          <div class="text-2xl font-bold text-gray-800">
-            <a href="#">Moana AI</a>
-          </div>
-          <!-- Desktop Menu -->
-          <div class="hidden md:flex md:gap-8 md:items-center">
-            <a href="#"
-              class="text-gray-700 hover:text-purple-600">Home</a>
-            <a href="#"
-              class="text-gray-700 hover:text-purple-600">Features</a>
-            <a href="#"
-              class="text-gray-700 hover:text-purple-600">About</a>
-            <a href="#"
-              class="text-gray-700 hover:text-purple-600">Contact</a>
-            <a href="#"
-              class="bg-purple-600 text-white px-4 py-2 rounded-full hover:bg-purple-700">Get
-              Started</a>
-          </div>
-          <!-- Mobile Menu Button -->
-          <div class="md:hidden">
-            <button class="text-gray-700 hover:text-purple-600">
-              <i class="ri-menu-2-line text-2xl"></i>
-            </button>
-          </div>
-        </div>
-      </div>
-    </nav>
+        <!-- Navbar -->
+        <nav class="bg-gray-700 shadow-lg fixed w-full top-0 z-40 ">
+            <div class="container mx-auto px-5">
+                <div class="flex justify-between items-center py-4">
+                    <!-- Logo -->
+                    <div class="text-2xl font-bold text-white">
+                        <a href="#">Moana AI</a>
+                    </div>
+                    <!-- Desktop Menu -->
+                    <div class="hidden md:flex md:gap-8 md:items-center">
+                        <a href="#"
+                            class="text-white hover:text-purple-600">Home</a>
+                        <a href="#"
+                            class="text-white hover:text-purple-600">Features</a>
+                        <a href="#"
+                            class="text-white hover:text-purple-600">About</a>
+                        <a href="#"
+                            class="text-white hover:text-purple-600">Contact</a>
+                        <a href="#"
+                            class="bg-purple-600 text-white px-4 py-2 rounded-full hover:bg-purple-700">Get
+                            Started</a>
+                    </div>
+                    <!-- Mobile Menu Button -->
+                    <div class="md:hidden">
+                        <i class="ri-menu-2-line text-2xl text-white"></i>
+                    </div>
+                </div>
+            </div>
+        </nav>
 
-    <!-- Hero Section -->
-    <section
-      class="relative bg-[url(https://i.pinimg.com/originals/c7/c6/f7/c7c6f7e8b3506ea46261ab7b55fc9faf.gif)] bg-no-repeat bg-cover bg-top-center min-h-screen text-center">
-      <!-- <div class="container mx-auto">
-                <h1 class="text-4xl font-bold text-gray-800">Experience the
-                    future with <span class="text-purple-700">moana
-                        AI</span></h1>
-                <p class="text-lg text-gray-500 mt-4">“We envision a world with
-                    no limits.”</p>
+        <!-- Hero Section -->
+        <section
+            class="bg-[url(https://i.pinimg.com/736x/3a/13/2b/3a132ba7ccf891262c74cd5876698ab2.jpg)]  bg-no-repeat bg-cover bg-center text-white py-16 min-h-screen">
+        </section>
+
+        <!-- About Section -->
+        <section class="py-52 bg-gradient-to-r from-violet-400 to-purple-100">
+            <div class="container mx-auto text-center px-16">
+                <h1 class="text-4xl md:text-7xl font-bold mb-6">AI enabled
+                    cognitive <br> <span class="text-red-900"> knowledge exchange platform.</span></h1>
+                <h2 class="text-4xl md:text-5xl font-bold mb-6">Moana aspires to be the
+                    <span class="text-blue-500">driving force</span> that
+                    empowers <br> professionals to embrace the <span
+                        class="text-purple-700">future of design</span>.</h2>
+                <p class="text-gray-500 text-lg mb-10">Enjoy the ease of experience with
+                    us.</p>
                 <a href="#"
-                    class="bg-black text-white px-6 py-3 rounded-full mt-8 inline-block">Download
-                    Now</a>
-            </div> -->
-    </section>
+                    class="w-fit bg-violet-600 text-white py-3 px-6 rounded-full font-semibold hover:bg-violet-700">Sign
+                    up now</a>
 
-    <!-- Footer Section -->
-    <footer class="bg-gray-900 py-3">
-      <div class="container text-center text-white">
-        <div class="flex items-center justify-center gap-5">
-          <a href="#" class="hover:text-gray-400">Home</a>
-          <a href="#" class="hover:text-gray-400">Features</a>
-          <a href="#" class="hover:text-gray-400">Contact</a>
+            </div>
+        </section>
+
+        <!-- Features Section -->
+        <section class="py-16 bg-white">
+            <div class="container mx-auto space-y-6">
+                <div class="grid grid-cols-1 md:grid-cols-4 gap-8 p-5">
+                    <!-- Feature Card 1 -->
+                    <div
+                        class="bg-purple-100 p-6 rounded-lg shadow-lg text-center">
+                        <img
+                            src="https://i.pinimg.com/236x/fd/ce/d3/fdced3462c6a345a23aee28f90b155e8.jpg"
+                            alt="Feature 1"
+                            class="w-full h-40 object-cover mb-4">
+                        <h3
+                            class="text-xl font-bold text-gray-800">Collaborative
+                            Space</h3>
+                        <p class="text-gray-500">Work together effortlessly</p>
+                    </div>
+                    <!-- Feature Card 2 -->
+                    <div
+                        class="bg-orange-100 p-6 rounded-lg shadow-lg text-center">
+                        <img
+                            src="https://i.pinimg.com/474x/6c/2f/c7/6c2fc79691f6d557f621925b17464a30.jpg"
+                            alt="Feature 2"
+                            class="w-full h-40 object-cover mb-4">
+                        <h3 class="text-xl font-bold text-gray-800">Texture
+                            Suggestions</h3>
+                        <p class="text-gray-500">Get the best textures</p>
+                    </div>
+                    <!-- Feature Card 3 -->
+                    <div
+                        class="bg-blue-100 p-6 rounded-lg shadow-lg text-center">
+                        <img
+                            src="https://i.pinimg.com/474x/e8/47/76/e84776a4237da3fc0df43e50728126fd.jpg"
+                            alt="Feature 3"
+                            class="w-full h-40 object-cover mb-4">
+                        <h3 class="text-xl font-bold text-gray-800">Automated
+                            Rigging</h3>
+                        <p class="text-gray-500">Streamline your process</p>
+                    </div>
+                    <!-- Feature Card 4 -->
+                    <div
+                        class="bg-pink-100 p-6 rounded-lg shadow-lg text-center">
+                        <img
+                            src="https://i.pinimg.com/474x/77/50/b2/7750b267665994755b9a69ba05a50b8f.jpg"
+                            alt="Feature 4"
+                            class="w-full h-40 object-cover mb-4">
+                        <h3 class="text-xl font-bold text-gray-800">Smart
+                            Assistant</h3>
+                        <p class="text-gray-500">AI at your service</p>
+                    </div>
+
+                </div>
+                <div class="grid grid-cols-1 md:grid-cols-4 gap-8">
+                    <!-- Feature Card 1 -->
+                    <div
+                        class="bg-pink-100 p-6 rounded-lg shadow-lg text-center">
+                        <img
+                            src="https://i.pinimg.com/236x/cb/21/4e/cb214ef7d0bea496bf98476326fe0ae8.jpg"
+                            alt="Feature 4"
+                            class="w-full h-40 object-cover mb-4">
+                        <h3 class="text-xl font-bold text-gray-800">Smart
+                            Assistant</h3>
+                        <p class="text-gray-500">AI at your service</p>
+                    </div>
+                    
+                    <!-- Feature Card 2 -->
+                    <div
+                        class="bg-purple-100 p-6 rounded-lg shadow-lg text-center">
+                        <img
+                            src="https://i.pinimg.com/474x/75/6f/13/756f1341120646a6f72bb1060cd7df49.jpg"
+                            alt="Feature 1"
+                            class="w-full h-40 object-cover mb-4">
+                        <h3
+                            class="text-xl font-bold text-gray-800">Collaborative
+                            Space</h3>
+                        <p class="text-gray-500">Work together effortlessly</p>
+                    </div>
+
+                    <!-- Feature Card 3 -->
+                    <div
+                        class="bg-orange-100 p-6 rounded-lg shadow-lg text-center">
+                        <img
+                            src="https://i.pinimg.com/474x/5b/65/87/5b6587c5bee15f23bac21c195d564dc8.jpg"
+                            alt="Feature 2"
+                            class="w-full h-40 object-cover mb-4">
+                        <h3 class="text-xl font-bold text-gray-800">Texture
+                            Suggestions</h3>
+                        <p class="text-gray-500">Get the best textures</p>
+                    </div>
+
+                    <!-- Feature Card 4 -->
+                    <div
+                        class="bg-blue-100 p-6 rounded-lg shadow-lg text-center">
+                        <img
+                            src="https://i.pinimg.com/236x/a1/bf/05/a1bf05cc20d875b960031b217d4a73df.jpg"
+                            alt="Feature 3"
+                            class="w-full h-40 object-cover mb-4">
+                        <h3 class="text-xl font-bold text-gray-800">Automated
+                            Rigging</h3>
+                        <p class="text-gray-500">Streamline your process</p>
+                    </div>
+                    
+                    
+                </div>
+
+            </div>
+        </section>
+
+        <!-- Metrics Section -->
+        <section
+            class="py-16 bg-gradient-to-r from-purple-200 to-purple-500 text-white">
+            <div
+                class="container mx-auto text-center grid grid-cols-1 md:grid-cols-4 gap-8">
+                <div>
+                    <h3 class="text-4xl font-bold">20+</h3>
+                    <p>Types of Designs</p>
+                </div>
+                <div>
+                    <h3 class="text-4xl font-bold">4M+</h3>
+                    <p>Active Users</p>
+                </div>
+                <div>
+                    <h3 class="text-4xl font-bold">150+</h3>
+                    <p>AI Models</p>
+                </div>
+                <div>
+                    <h3 class="text-4xl font-bold">74%</h3>
+                    <p>Faster Workflows</p>
+                </div>
+            </div>
+        </section>
+
+        <!-- new section -->
+        <div class="min-h-screen flex items-center justify-center">
+            <div
+                class="max-w-7xl mx-auto grid grid-cols-1 md:grid-cols-2 gap-8 p-6 md:p-12">
+
+                <!-- Left Section -->
+                <div class="bg-white rounded-lg shadow-lg p-8 md:p-12 relative">
+                    <div class="absolute top-4 right-4">
+                        <button
+                            class="border-2 border-gray-500 px-5 py-1 rounded-lg text-kg text-gray-600">Menu</button>
+                    </div>
+                    <div class="mb-8 ">
+                        <div
+                            class="absolute top-4 left-4 bg-gray-100 p-4 rounded-md w-12 h-12 mb-4 flex items-center justify-center">
+                            <!-- Placeholder for Logo/Icon -->
+                            <svg class="w-6 h-6 text-purple-600 text-xl"
+                                fill="none" xmlns="http://www.w3.org/2000/svg"
+                                viewBox="0 0 24 24" stroke="currentColor">
+                                <path stroke-linecap="round"
+                                    stroke-linejoin="round" stroke-width="5"
+                                    d="M12 6v6m0 0v6m0-6h6m-6 0H6" />
+                            </svg>
+                        </div>
+                        <div class="md:h-96 md:w-[30vw] md:mt-10 mt-20">
+                            <img
+                                src="https://i.pinimg.com/564x/93/c2/02/93c2022e0375f483909c26363b4167bb.jpg"
+                                class="h-full w-full md:object-contain object-cover" alt>
+                        </div>
+                        <h1
+                            class="text-4xl md:text-[3vw] font-bold mb-4 mt-10">Experience
+                            the future with <span class="text-purple-600">moana
+                                AI</span></h1>
+                        <p
+                            class="text-gray-500 text-lg mb-6">"We envision a world with no limits."</p>
+                        <button
+                            class="bg-purple-600 text-white px-6 py-3 rounded-full font-medium">Download
+                            Now</button>
+                    </div>
+                </div>
+
+                <!-- Right Section -->
+                <div
+                    class="bg-purple-100 rounded-lg shadow-lg p-8 relative overflow-hidden">
+                    <div class="absolute top-4 right-4">
+                        <button
+                            class="border-2 border-gray-500 p-1 rounded-lg text-lg text-gray-600">Account</button>
+                    </div>
+                    <div class="absolute top-4 left-4">
+                        <button
+                            class="border-2 border-gray-500 px-6 py-1 rounded-lg text-lg text-gray-600">Join</button>
+                    </div>
+
+                    <!-- Image Placeholder -->
+                    <div class="h-96 w-96  mt-10 relative">
+                        <img src="ai-2.png" alt="AI Flower Image"
+                            class="rounded-lg object-cover object-center md:absolute md:left-24 md:top-12">
+                    </div>
+
+                    <!-- Features Section -->
+                    <div class="space-y-4">
+                        <div class="bg-white p-4 rounded-md shadow-md">
+                            <h2
+                                class="font-semibold flex items-center justify-between">Rendering
+                                <button
+                                    class="bg-orange-400 text-white rounded-full px-3 py-2">1</button></h2>
+                            <p class="text-gray-500 text-sm">High-quality
+                                rendering capabilities that bring flower designs
+                                to life.</p>
+                        </div>
+                        <div class="bg-white p-4 rounded-md shadow-md">
+                            <h2
+                                class="font-semibold flex items-center justify-between">Botanical
+                                Library <button
+                                    class="bg-violet-500 text-white rounded-full px-3 py-2">2</button></h2>
+                            <p class="text-gray-500 text-sm">Pre-built
+                                simulations and presets for various flower
+                                species.</p>
+                        </div>
+                        <div class="bg-white p-4 rounded-md shadow-md">
+                            <h2
+                                class="font-semibold flex items-center justify-between">Realistic
+                                Flower Modeling <button
+                                    class="bg-gray-600 text-white rounded-full px-3 py-2">3</button></h2>
+                            <p class="text-gray-500 text-sm">Advanced 3D
+                                modeling tools that allow for detailed and
+                                realistic models.</p>
+                        </div>
+                        
+                    </div>
+                </div>
+            </div>
         </div>
-        <p class="text-gray-500 mt-2">© 2024 Moana AI. All rights
-          reserved.</p>
-      </div>
-    </footer>
 
-  </body>
+        <!-- Recent Advances Section -->
+        <section class="py-16">
+            <div class="container mx-auto">
+                <h2 class="text-3xl font-bold text-center mb-8">Recent Advances
+                    in Moana 3D Technology</h2>
+                <div class="grid grid-cols-1 md:grid-cols-3 gap-8 p-5">
+                    <div class="bg-blue-100 p-6 rounded-lg shadow-lg">
+                        <h3 class="text-xl font-bold mb-4">AI & VR</h3>
+                        <p class="text-gray-500">Discover AI-driven VR
+                            experiences</p>
+                    </div>
+                    <div class="bg-green-100 p-6 rounded-lg shadow-lg">
+                        <h3 class="text-xl font-bold mb-4">Urban Visions</h3>
+                        <p class="text-gray-500">The future of smart cities</p>
+                    </div>
+                    <div class="bg-purple-100 p-6 rounded-lg shadow-lg">
+                        <h3 class="text-xl font-bold mb-4">Collaborative
+                            Magic</h3>
+                        <p class="text-gray-500">The power of collaboration</p>
+                    </div>
+                    <div class="bg-green-100 p-6 rounded-lg shadow-lg">
+                        <h3 class="text-xl font-bold mb-4">Urban Visions</h3>
+                        <p class="text-gray-500">The future of smart cities</p>
+                    </div>
+                    <div class="bg-purple-100 p-6 rounded-lg shadow-lg">
+                        <h3 class="text-xl font-bold mb-4">Collaborative
+                            Magic</h3>
+                        <p class="text-gray-500">The power of collaboration</p>
+                    </div>
+                    <div class="bg-blue-100 p-6 rounded-lg shadow-lg">
+                        <h3 class="text-xl font-bold mb-4">AI & VR</h3>
+                        <p class="text-gray-500">Discover AI-driven VR
+                            experiences</p>
+                    </div>
+                    <div class="bg-blue-100 p-6 rounded-lg shadow-lg">
+                        <h3 class="text-xl font-bold mb-4">AI & VR</h3>
+                        <p class="text-gray-500">Discover AI-driven VR
+                            experiences</p>
+                    </div>
+                    <div class="bg-green-100 p-6 rounded-lg shadow-lg">
+                        <h3 class="text-xl font-bold mb-4">Urban Visions</h3>
+                        <p class="text-gray-500">The future of smart cities</p>
+                    </div>
+                    <div class="bg-purple-100 p-6 rounded-lg shadow-lg">
+                        <h3 class="text-xl font-bold mb-4">Collaborative
+                            Magic</h3>
+                        <p class="text-gray-500">The power of collaboration</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Footer Section -->
+        <footer class="bg-gray-900 py-5">
+            <div class="container mx-auto text-center text-white">
+                <div class="space-x-4">
+                    <a href="#" class="hover:text-gray-400">Home</a>
+                    <a href="#" class="hover:text-gray-400">Features</a>
+                    <a href="#" class="hover:text-gray-400">Contact</a>
+                </div>
+                <p class="text-gray-500 ">© 2024 Moana AI. All rights
+                    reserved.</p>
+            </div>
+        </footer>
+
+    </body>
 </html>
